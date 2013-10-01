@@ -14,7 +14,7 @@ http://www.dpi.inpe.br/prodesdigital/dadosn/2012
 
 ### Installing the project locally
 
-1. Clone this repository at TileMill projects diretory:
+Clone this repository at TileMill projects diretory:
 
     cd ~/Documents/Mapbox/project
     git clone git@github.com:oeco/tm-deforestation-deter.git
