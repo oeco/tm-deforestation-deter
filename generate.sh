@@ -2,11 +2,11 @@
 
 
 # # delete old source files
-# rm -rf data/sources/*
+rm -rf data/sources/*
 
 # # download source files
-# wget -r --no-parent -nd -c -A "Deter_??????_shp.zip" -P data/sources http://www.obt.inpe.br/deter/dados
-# wget -nd -c -P data/sources http://www.obt.inpe.br/deter/dados/Deter_20060531_shp.zip
+wget -r --no-parent -nd -c -A "Deter_??????_shp.zip" -P data/sources http://www.obt.inpe.br/deter/dados
+wget -nd -c -P data/sources http://www.obt.inpe.br/deter/dados/Deter_20060531_shp.zip
 
 # unzip
 unzip -jo data/sources/\*.zip -d data/sources-expanded
